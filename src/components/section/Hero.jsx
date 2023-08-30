@@ -9,7 +9,7 @@ const Hero = () => {
             <p className="font-regular">Saya seorang software-engineer,pembaca<br />buku, warga NU, dan juga murid (online)<br />Pak Fahruddin Faiz.</p>
             <div className="overview-button">
                 <p>Go To Overview</p>
-                <a href="#"><img src="./src/assets/arrow.png" alt="logo panah" style={{marginTop:"15px"}}/></a>
+                <a href="#"><img src="/src/assets/arrow.png" alt="logo panah" style={{marginTop:"15px"}}/></a>
             </div>
             <div className="info">
                 <div>
@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="hero-image self-center">
-            <img src="./src/assets/hero-image.png" alt="" />
+            <img src="/src/assets/hero-image.png" alt="" />
         </div>
         </section>
     </>
