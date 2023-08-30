@@ -1,0 +1,279 @@
+.container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+    
+  .font-regular{
+    font-weight: 400;
+  }
+  
+  .font-thin{
+    font-weight: 200;
+  }
+  
+  .font-bold{
+    font-weight: bold;
+  }
+  
+  .flex{
+    display:flex;
+  }
+  
+  .self-center{
+    align-self:center;
+  }
+  
+  /* Header */
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 30px;
+  }
+  
+  .logo{
+    align-self: center;
+  }
+  
+  .logo a{
+    background-color: #CDFFF3;
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 14px 18px 14px 18px;
+    text-decoration: none;
+    align-self: center;
+  }
+  
+  .nav{
+    display: flex;
+    gap: 56px;
+  }
+  
+  .nav ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    color: #ffffffa1;
+  }
+  
+  .nav nav ul li:hover{
+    color: white;
+  }
+  
+  .button{
+    align-self: center;
+  }
+  
+  .button a{
+    padding: 10px 20px 10px 20px;
+    background-color: #2BA386;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  .button a:hover{
+    background-color: #4ec3a8;
+  }
+  
+  /* Hero */
+  .hero{
+    margin-top: 66px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between;
+  }
+  
+  .hero h1{
+    letter-spacing: 3px;
+    line-height: 1.3;
+    font-size: 40px;
+  }
+  
+  .hero p{
+    color: #ffffffa1;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height:1.4;
+  }
+  
+  .overview-button{
+    display: flex;
+    align-items: center;
+    align-self:center;
+  }
+  
+  .overview-button p{
+    color: white;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-right: 13px;
+  }
+  
+  .info{
+    display:flex;
+    align-self:center;
+    gap:32px;
+  }
+  
+  .info h5{
+    color:#ffffffa1;
+    font-size:12px;
+    font-weight:400;
+    margin-top:40px;
+  }
+  
+  .info h4{
+    font-size:24px;
+    font-weight: 500;
+    margin-top:-18px;
+  }
+  
+  .hero-image{
+    vertical-align: middle;
+    align-items: center;
+    align-self: center;
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+  
+  
+  /* Overview */
+  .overview{
+    margin-top: 66px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between;
+  }
+  
+  .overview h2{
+    font-size: 40px;
+  }
+  
+  .overview p{
+    font-weight: 300px;
+    color: #ffffffa1;
+    line-height: 1.6;
+  }
+  
+  .overview h3{
+    font-size: 28px;
+  }
+  
+  .overview-list p{
+    margin-top: -15px;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .overview-list img{
+    margin-right: 12px;
+    height: 14px;
+    width: 14px;
+  }
+  
+  .overview-photo{
+    margin-top: 20px;
+    margin-right: 200px;
+    text-align: center;
+    font-size:15px;
+  }
+  
+  /* Projects */
+  .projects{
+    margin-top: 66px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between;
+  }
+  
+  .projects h2{
+    font-size: 40px;
+  }
+  
+  .projects p{
+    font-size: 18px;
+    color: #ffffffa1;
+    line-height: 1.6;
+  }
+  
+  .project-category{
+    margin-top: 44px;
+  }
+  
+  .project-category p{
+    color: #ffffffa1;
+    font-size: 16px;
+  }
+  
+  .project-category p:first-child{
+    color: white;
+    font-weight: 500;
+  }
+  
+  .project-category img{
+    margin-right: 12px;
+    height: 14px;
+    width: 14px;
+  }
+  
+  .projects-list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:19px;
+  }
+  
+  .card{
+    height: 293px;
+    background-color: #ffffff0a;
+    border-radius: 6px;
+    text-align: center;
+    padding: 16px 18px 0px 18px;
+  }
+  
+  .card p{
+    font-size: 12px;
+  }
+  
+  /* Skills */
+  .skills{
+    margin-top: 66px;
+  }
+  
+  .skills h2{
+    font-size: 40px;
+  }
+  
+  .skills p{
+    font-size: 18px;
+    color: #ffffffa1;
+    line-height: 1.6;
+  }
+  
+  .skills-list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .skills-card{
+    margin-top: 38px;
+    text-align: center;
+  }
+  
+  .skills-card h4{
+    font-size: 20px;
+  }
+  
+  .skills-card p{
+    font-size: 18px;
+    color: #ffffffa1;
+    line-height: 1.6;
+  }
+  
+  /* Contact */
+  
+  /* Footer */
